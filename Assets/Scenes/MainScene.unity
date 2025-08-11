@@ -342,7 +342,7 @@ GameObject:
   - component: {fileID: 39036099}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
   jumpPower: 80
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   cameraContainer: {fileID: 1670296829}
   minXLook: -85
   maxXLook: 85
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 87e38a35331ce0a4888673a6ff9ef2e4, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: b95a7c66acbda5040bdb03689e1619e0, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -9167,17 +9167,17 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 474593214}
-  - {fileID: 854769271}
   - {fileID: 1133693734}
-  - {fileID: 1429060652}
+  - {fileID: 241882477}
   - {fileID: 39036109}
   - {fileID: 1297332088}
-  - {fileID: 952643435}
+  - {fileID: 1429060652}
+  - {fileID: 1749750037}
+  - {fileID: 1594562447}
   - {fileID: 769780827}
   - {fileID: 709964273}
   - {fileID: 1917342568}
   - {fileID: 1111171459}
-  - {fileID: 1594562447}
-  - {fileID: 241882477}
-  - {fileID: 1749750037}
+  - {fileID: 854769271}
+  - {fileID: 952643435}
+  - {fileID: 474593214}
