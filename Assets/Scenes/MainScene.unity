@@ -3865,7 +3865,7 @@ GameObject:
   - component: {fileID: 832866224}
   - component: {fileID: 832866223}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: JumpPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9113,7 +9113,7 @@ GameObject:
   - component: {fileID: 2113873984}
   - component: {fileID: 2113873985}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: JumpArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
