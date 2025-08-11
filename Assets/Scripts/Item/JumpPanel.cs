@@ -5,15 +5,19 @@ using UnityEngine;
 
 public class JumpPanel : MonoBehaviour
 {
-    [Header("PlayerPosition")]
-    [SerializeField] Rigidbody playerRb;
-
+    [SerializeField] private float jumpPower = 100;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             Debug.Log(other.tag);
-            playerRb.AddForce(Vector3.up * 50, ForceMode.Impulse);
+
+            Rigidbody rigid = other.GetComponent<Rigidbody>();
+
+            if (rigid != null)
+            {
+                rigid.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+            }
         }
     }
 }
